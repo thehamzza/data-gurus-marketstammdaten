@@ -1,0 +1,27 @@
+ERRORS
+1) 
+Error while converting from pandas to spark : field Hausnummer: 
+Can not merge type <class 'pyspark.sql.types.StringType'> and
+<class 'pyspark.sql.types.DoubleType'>
+
+2)
+Exception occurred while writing to databricks :
+Failed to merge fields 'Postleitzahl' and 'Postleitzahl'. 
+Failed to merge incompatible data types DoubleType and LongType
+
+Problem Fields:
+
+
+4)EinheitenStromSpeicher:
+Technologie
+Postleitzahl
+
+5)EinheitenSolar:
+Bundesland
+Postleitzahl 
+Hausnummer
+NameStromerzeugungseinheit
+Gemeindeschluessel
+Lage
+Einsatzverantwortlicher
+Einspeisungsart
